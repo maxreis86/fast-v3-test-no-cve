@@ -4,14 +4,10 @@ import jmespath
 
 print("jmespath version:", jmespath.__version__)
 
-def get_complexity_result():
+def get_complexity_result() -> int:
     """Placeholder for external complexity tools like lizard."""
-    pass
-
-# Duplicated check
-def get_complexity_result():
-    """Placeholder for external complexity tools like lizard."""
-    pass
+    a=1+2
+    return a
 
 def line_warning():
     """
