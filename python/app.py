@@ -1,9 +1,9 @@
 """Simple test script for version check and scan hooks."""
 
-# Replace jmespath with jupyter-core version check
-import jupyter_core
+# charset-normalizer version check (no known CVEs)
+import charset_normalizer
 
-print("jupyter-core version:", jupyter_core.__version__)
+print("charset-normalizer version:", charset_normalizer.__version__)
 
 def long_repeated_function():
     """
